@@ -35,6 +35,7 @@ def calcular_promedio(notas):
     Returns:
         float: El promedio de las notas, o 0 si la lista está vacía.
     """
+    
     if not notas:
         return 0
     return sum(notas) / len(notas)
